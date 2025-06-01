@@ -163,8 +163,6 @@
 }
 
 .section__title {
-  /* width: 314px;
-  height: 47px; */
   font-family: var(--font-famyli-text,'IBM Plex Mono', sans-serif);
   font-style: normal;
   font-weight: var(--font-weigh-h, 700);
