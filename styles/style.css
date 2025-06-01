@@ -411,11 +411,6 @@
     grid-row: 3/4;
 }
 
-  .footer {
-    min-height: 667px;
-    padding: inherit;
-    padding-top: 105px;
-  }
 }
 
 @media (max-width: 375px) {
@@ -450,12 +445,6 @@
     padding-left: initial;
     flex-wrap: wrap;
     line-height: 130%;
-  }
-
-  .footer {
-    min-height: 667px;
-    padding: inherit;
-    padding-top: 105px;
   }
 
 }
