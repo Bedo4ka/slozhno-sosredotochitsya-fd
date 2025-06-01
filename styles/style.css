@@ -320,6 +320,15 @@
 		row-gap: 50px;
 	}
 
+    .header {
+    padding-left: 0;
+  }
+
+  .header__text {
+    width: calc(100% - 20px / 2);
+    justify-self: end;
+  }
+
 	.header__title,
 	.footer__title {
 		font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
