@@ -371,10 +371,10 @@
 		margin-inline-start: 0;
 	}
 
-	.block_one {
+	/* .block_one {
 		grid-template-columns: none;
 		margin-block-end: 50px;
-	}
+	} */
 
 	.section__title {
 		max-inline-size: 100%;
@@ -446,5 +446,5 @@
     flex-wrap: wrap;
     line-height: 130%;
   }
-
+  /* image */
 }
