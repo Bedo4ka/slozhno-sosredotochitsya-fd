@@ -300,13 +300,13 @@
 }
 
 @media (max-width: 767px) {
-	.main {
+	/* .main {
 		padding-inline-start: 10px;
 		padding-inline-end: 10px;
 		padding-block-start: 40px;
 		padding-block-end: 40px;
 		row-gap: 50px;
-	}
+	} */
 
 	.header__title,
 	.footer__title {
