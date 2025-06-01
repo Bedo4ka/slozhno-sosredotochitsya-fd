@@ -364,7 +364,7 @@
 		margin-inline-start: 0;
 	}
 
-	.block_one_sections {
+	.block_one {
 		grid-template-columns: none;
 		margin-block-end: 50px;
 	}
@@ -413,7 +413,7 @@
     flex-wrap: wrap;
   }
 
-  .block_one_sections {
+  .block_one {
     max-width: 375px;
     padding-left: initial;
     flex-wrap: wrap;
