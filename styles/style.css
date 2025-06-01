@@ -320,14 +320,12 @@
 		row-gap: 50px;
 	}
 
-    .header {
+  .header {
     padding-left: 0;
+    grid-template-rows: repeat(3, 29% 42% 11%);
   }
 
-  .header__text {
-    width: calc(100% - 20px / 2);
-    justify-self: end;
-  }
+
 
 	.header__title,
 	.footer__title {
