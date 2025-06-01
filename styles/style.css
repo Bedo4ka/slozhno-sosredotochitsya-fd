@@ -417,9 +417,7 @@
     max-width: 375px;
     padding-left: initial;
     flex-wrap: wrap;
-  }
-
-  .block_one_sections {
     line-height: 130%;
   }
+
 }
