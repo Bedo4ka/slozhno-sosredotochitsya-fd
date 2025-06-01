@@ -312,11 +312,6 @@
 
 @media (max-width: 768px) {
 
-  .page {
-    max-width: 768px;
-    max-height: 1024px;
-  }
-
 	.main {
 		padding-inline-start: 10px;
 		padding-inline-end: 10px;
@@ -388,5 +383,22 @@
     min-height: 667px;
     padding: inherit;
     padding-top: 105px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__theme-menu-list {
+    align-self: end;
+    line-height: 17px;
+    margin-right: 10px;
+  }
+
+  .main {
+    padding-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .block_one_sections {
+    line-height: 130%;
   }
 }
