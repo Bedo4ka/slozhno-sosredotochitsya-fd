@@ -379,6 +379,29 @@
 		row-gap: 10px;
 	}
 
+  .tape {
+    height: 237px;
+    grid-column: 1/3;
+    grid-row: 3;
+  }
+
+  .book {
+    grid-column: 1/3;
+    grid-row: 4;
+  }
+
+  .ice-cream {
+    height: 355px;
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+
+  .street {
+    height: 237px;
+    grid-column: 1/3;
+    grid-row: 5;
+  }
+
   .footer {
     min-height: 667px;
     padding: inherit;
