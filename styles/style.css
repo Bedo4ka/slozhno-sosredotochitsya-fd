@@ -387,14 +387,35 @@
 }
 
 @media (max-width: 375px) {
+
+  .header__theme-menu {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-self: flex-end;
+    inset-block-start: 29px;
+  }
+
   .header__theme-menu-list {
     align-self: end;
     line-height: 17px;
     margin-right: 10px;
   }
 
+  .title {
+    justify-self: flex-start;
+    padding-left: 10px;
+    width: 100%;
+  }
+
   .main {
     padding-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .block_one_sections {
+    max-width: 375px;
+    padding-left: initial;
     flex-wrap: wrap;
   }
 
