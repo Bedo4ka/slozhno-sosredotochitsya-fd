@@ -441,7 +441,7 @@
 		margin-block-end: 50px;
 	}
 
-  .fix_image {
+  .section_image {
 		grid-template-columns: none;
   }
 }
