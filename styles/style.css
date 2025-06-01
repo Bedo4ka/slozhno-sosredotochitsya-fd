@@ -443,6 +443,5 @@
 
   .fix_image {
 		grid-template-columns: none;
-		margin-block-end: 50px;
   }
 }
