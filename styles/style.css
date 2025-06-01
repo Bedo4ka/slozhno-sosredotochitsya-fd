@@ -299,7 +299,7 @@
 		max-inline-size: 236px;
 	}
 
-	.block_one {
+	.block_one_sections {
 		column-gap: 20px;
 	}
 
@@ -325,8 +325,13 @@
 	}
 
 	.header__theme-menu {
-		margin-block-start: 0;
-		align-self: center;
+		margin-block-start:0;
+		align-self:center;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-self: flex-end;
+    inset-block-start: 82px;
 	}
 
 	.header__text {
@@ -335,23 +340,23 @@
 	}
 
 	.dec_rec::before {
-		inset-block-start: 11px;
-		inset-inline-end: 40px;
+    top: 11px;
+    right: 36px;
 	}
 
 	.dec_rec::after {
-		inset-inline-start: 43px;
-		inset-block-start: 7px;
+    top: 15px;
+    right: 17px;
 	}
 
 	.decorated-zone::before {
-		inset-block-start: 10px;
-		inset-inline-end: 10px;
+    left: 9px;
+    bottom: 9px;
 	}
 
 	.decorated-zone::after {
-		inset-block-end: 10px;
-		inset-inline-start: 10px;
+    top: 10px;
+    right: 8px;
 	}
 
 	.header__title {
@@ -359,7 +364,7 @@
 		margin-inline-start: 0;
 	}
 
-	.block_one {
+	.block_one_sections {
 		grid-template-columns: none;
 		margin-block-end: 50px;
 	}
