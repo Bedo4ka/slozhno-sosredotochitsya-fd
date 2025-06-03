@@ -302,7 +302,7 @@
   .header {
     display: grid;
     /* grid-template-rows: repeat(3, 29% 42% 11%); */
-    grid-template-columns: 1fr min-content 1fr;
+    /* grid-template-columns: 1fr min-content 1fr; */
   }
 
 
@@ -424,7 +424,7 @@
 
   .title {
     justify-self: flex-start;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     width: 100%;
   }
 
