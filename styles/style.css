@@ -13,6 +13,7 @@
 
 .header {
   position: relative;
+  /* display: grid; */
   width: 100%;
   height: 100vh;
   max-height: 768px;
@@ -74,9 +75,9 @@
 
 
 .header__theme-menu {
-  /* justify-self: center; */
+  justify-self: center;
   padding: 23px;
-  /*gap: 23px;*/
+  /* gap: 23px; */
 }
 
 .header__theme-menu-list {
@@ -133,8 +134,8 @@
 
 .header__text {
   /* justify-self: flex-end;
-  max-width: 491px; */
-  /* margin-top: 369px;
+  max-width: 491px;
+  margin-top: 369px;
   margin-right: 20px;  */
   font-family: var(--font-famyli-text,'IBM Plex Mono', sans-serif);
   font-style: normal;
@@ -290,12 +291,13 @@
 @media (max-width: 1023px) {
 	.header__theme-menu {
 		justify-self: end;
-		margin-block-start: 173px;
+		/* margin-block-start: 173px; */
 	}
 
 	.header__theme-menu-list {
 		display: flex;
 		flex-direction: column;
+    padding-top: 40px;
 	}
 
 	.header__title {
@@ -317,7 +319,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width >= 768px) {
 
 	.main {
 		padding-inline-start: 10px;
@@ -328,8 +330,8 @@
 	}
 
   .header {
-    padding-left: 0;
-    grid-template-rows: repeat(3, 29% 42% 11%);
+    /* grid-template-rows: repeat(3, 29% 42% 11%); */
+    grid-template-columns: 1fr min-content 1fr;
   }
 
 
@@ -414,50 +416,4 @@
     grid-row: 3/4;
 }
 
-}
-
-@media (max-width: 375px) {
-
-  .header {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-  }
-
-  .header__title {
-    top: 78px;
-    left: 10px;
-  }
-
-
-  .header__text__decoration {
-  justify-self: flex-end;
-  max-width: 355px;
-  margin-top: 134px;
-  margin-right: 10px;
-  }
-
-
-  .title {
-    justify-self: flex-start;
-    padding-left: 10px;
-    width: 100%;
-  }
-
-  .main {
-    padding-top: 0px;
-    flex-wrap: wrap;
-  }
-
-	.block_one {
-		grid-template-columns: none;
-		margin-block-end: 50px;
-	}
-
-
-  .section_image {
-	display: flex;
-  flex-direction: column;
-  }
-  
 }
