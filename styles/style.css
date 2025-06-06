@@ -127,7 +127,7 @@
   font-family: var(--font-famyli-text,'IBM Plex Mono', sans-serif);
   font-style: normal;
   font-weight: var(--font-weigh-h, 700);
-  font-size: 157px;
+  font-size: var(--title-size, 157px);
   line-height: 82.5%;
   color: var(--focus-color, #DB00FF);
   text-shadow: 4px 4px 0 var(--accent-color, #FF0070);
@@ -147,7 +147,7 @@
 }
 
 .header__text__decoration {
-  margin-top: 369px;
+  margin-top: 365px;
   margin-right: 20px;
   justify-self: flex-end;
   max-width: 491px;
@@ -169,14 +169,14 @@
   grid-template-columns: minmax(300px, 1fr) 2fr;
   /* grid-template-columns: repeat(2, 1fr); */
   justify-content:center;
-  gap: 20px;
-  padding-bottom: 83px;
+  /* gap: 20px; */
 }
 
 .block_one_sections {
   display: flex;
   flex-direction: column;
   gap: 22px;
+  padding-bottom: 54px;
 }
 
 .section__title {
@@ -210,23 +210,29 @@
   text-decoration: none;
 }
 
-.spisok {
-  /*display: flex;
-  flex-direction:row;*/
-  padding-top: 20px;
-  padding-bottom: 87px;
-  /*padding: 20px 10px 90px;*/
+.block_two {
+    padding-top: 30px;
 }
 
 .spisok-list {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 20px;
+  padding-top: 25px;
+}
+
+.block_three {
+  margin-bottom: 30px;
+  margin-top: 85px;
 }
 
 .block-3 {
-  margin-bottom: 20px;
+ margin-bottom: 20px;
 }
+
+.block_four {
+    margin-top: 0px;
+  }
 
 .section_image {
   display: grid;
@@ -276,15 +282,15 @@
   align-items: center;
   inline-size: 100%;
   block-size: 100vh;
-  min-height: 768px;
+  max-height: 768px;
 }
 
 .footer__title {
   font-family: var(--font-famyli-text,'IBM Plex Mono', sans-serif);
   font-style: normal;
   font-weight: var(--font-weigh-h, 700);
-  font-size: 157px;
-  line-height: 82.5%;
+  font-size: var(--title-size, 157px);
+  line-height: 82%;
   color: var(--focus-color, #DB00FF);
   text-shadow: 2px 2px 0 var(--accent-color, #FF0070);
 }
@@ -317,7 +323,6 @@
     top: 0px;
     padding-top: 177px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    /* font-size: 120px; */
     line-height: 83%;
   }
 
