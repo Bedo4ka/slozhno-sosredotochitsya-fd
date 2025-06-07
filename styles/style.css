@@ -381,7 +381,7 @@
   .footer {
     padding-top: 465px;
     align-items: start;
-    height: 1024px;
+    min-height: 1024px;
   }
 
   .footer__title {
@@ -483,7 +483,7 @@
     justify-content: start;
     align-items: start;    
     min-height: 668px;
-    max-height: 668px;
+    /* max-height: 668px; */
 }
 
 .footer__title {
