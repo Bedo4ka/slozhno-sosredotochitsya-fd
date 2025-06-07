@@ -476,7 +476,7 @@
     position: relative;
     display: grid;
     justify-content: start;
-    align-items: start; 
+    align-items: start;
     min-height: 668px;
     /* max-height: 668px; */
 }
