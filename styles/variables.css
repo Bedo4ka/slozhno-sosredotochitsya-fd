@@ -8,8 +8,8 @@
 --accent-color: #FF0070;
 --h-size: 18px;
 --font-weigh-h: 700;
---font-weight-menu: 400px;
---font-famyli-text: 'IBM Plex Mono', sans-serif;
+--font-weight-menu: 400;
+--font-family-text: 'IBM Plex Mono', sans-serif;
 --font-size: 18px;
 --rec-decor: #ff0070;
 --text-color: #F1B2CE;
@@ -17,4 +17,7 @@
 --color-button: #FF0070;
 --zac-color: #000028;
 --title-size: 157px;
+--frame-color: #ff0070;
+--hover-color: rgba(255, 0, 112, 0.5);
+--section-title: #ff0070;
 }
