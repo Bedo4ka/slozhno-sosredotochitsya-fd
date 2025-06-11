@@ -12,9 +12,10 @@
     --rec-decor: transparent;
     --color-button: #353430;
     --text-color: #353430;
-    --zac-color: #353430;
+    --color: #353430;
     --focus-color: #FFC2E6;
     --frame-color:#353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
     --section-title:#353430;
   }
 } 
@@ -32,9 +33,9 @@
   --color-button: #353430;
   --text-color: #353430;
   --focus-color: #FFC2E6;
-  --zac-color: #353430;
+  --color: #353430;
   --frame-color:#353430;
-  --hover-color: rgba(53, 52, 48, 0.5);
+  --hover-color: rgba(50, 49, 45, 0.4);
   --section-title:#353430;
 } 
 
