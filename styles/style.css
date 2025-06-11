@@ -71,10 +71,6 @@
   left: 10px;
 }
 
-/* .header__theme-menu {
-  justify-self: center;
-  align-self: start;
-} */
 
 .header__theme-menu-list {
   display: flex;
@@ -190,13 +186,13 @@
 .block__content-title_text {
   margin-top: 20px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--font-size);
 }
 
 .section__gallery-title {
   margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: var(--font-size);
+  font-weight: var(--font-weigh-h);
   line-height: 23.4px;
 }
 
