@@ -1,13 +1,10 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--bg-image);
   background-color: var(--bg-color, #000028);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  font-family: var(--font-famyli-text, "IBM Plex Mono"), sans-serif;
+  font-family: var(--font-family-text, "IBM Plex Mono"), sans-serif;
 }
 
 .header {
@@ -100,6 +97,7 @@
 
 .header__theme-menu-button:focus {
   outline: none;
+  border-bottom: 1px solid var(--color-button, #ff0070);
 }
 
 .header__theme-menu-item:focus-visible {
@@ -126,7 +124,7 @@
   font-weight: var(--font-weigh-h, 700);
   font-size: var(--font-size, 18px);
   line-height: 23px;
-  color: var(--zac-color, #000028);
+  color: var(--color, #000028);
 }
 
 .title-decor {
@@ -164,6 +162,7 @@
   line-height: 23.4px;
   margin-top: 10px;
   font-weight: 400;
+  color: var(--text-color);
 }
 
 .block__content-link {
@@ -172,15 +171,15 @@
 }
 
 .block__content-link:hover {
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--color-link-focus);
 }
 
-.block__content-link-item:focus {
-  border: 1px solid var(--text-color, #f1b2ce);
+.block__content-link:focus {
+  outline: 1px solid var(--color-link-focus);
 }
 
-.block__content-link-item:focus-visible {
-  border: 1px solid var(--text-color, #f1b2ce);
+.block__content-link:focus-visible {
+  outline: 1px solid var(--color-link-focus);
 }
 
 .block__content-title_text {
@@ -345,7 +344,7 @@
     flex-direction: row;
   }
 
-  .section__colums {
+  .section__gold {
     grid-template-columns: 32% 66%;
   }
 
